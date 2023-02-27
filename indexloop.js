@@ -40,3 +40,11 @@ for(let i in arr)
     console.log(arr[i]);
 }*/
 
+//for-of loop #use for iterable data structure like array,string.
+const car = ["BMW" , "VOLVO" , "MINI"];
+
+let text = "";
+for(let x of cars){
+    text += x +;
+}
+console.log(text[x]);
