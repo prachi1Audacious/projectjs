@@ -45,6 +45,6 @@ const car = ["BMW" , "VOLVO" , "MINI"];
 
 let text = "";
 for(let x of cars){
-    text += x +
+    text += x + "bm";
 }
 console.log(text[x]);
