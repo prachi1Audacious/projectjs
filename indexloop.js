@@ -9,7 +9,7 @@ do{
 
 
 //for loop
-let i=0;
+let i = 0;
 for(i=0;i<=5;i++)
 {
     console.log(i);
