@@ -41,10 +41,12 @@ for(let i in arr)
 }*/
 
 //for-of loop #use for iterable data structure like array,string.
-const car = ["BMW" , "VOLVO" , "MINI"];
 
-let text = "";
-for(let x of cars){
-    text += x + "bm";
+const students = ['John', 'Sara', 'Jack'];
+
+// using for...of
+for ( let element of students ) {
+
+    // display the values
+    console.log(element);
 }
-console.log(text[x]);
